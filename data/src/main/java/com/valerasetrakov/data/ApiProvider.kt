@@ -10,6 +10,7 @@ import java.net.InetSocketAddress
 import java.net.Proxy
 import java.util.concurrent.TimeUnit
 
+/** */
 object ApiProvider {
 
     var logger: HttpLoggingInterceptor.Logger? = null
