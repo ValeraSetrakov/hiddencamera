@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HiddenCameraRecorder</string>
+
+    <string name="start_record">Start record</string>
+    <string name="stop_record">Stop record</string>
+    <string name="start_audio">Start audio</string>
+    <string name="remember_location">Remember location</string>
+    <string name="retry">Retry</string>
+    <string name="last_event_key">Last event key %d</string>
+</resources>

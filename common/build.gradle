@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    api "com.squareup.okhttp3:logging-interceptor:3.10.0"
+    api project(':test')
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

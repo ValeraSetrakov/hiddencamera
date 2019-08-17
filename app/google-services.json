@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "226878115493",
+    "firebase_url": "https://glitter-bomb-b8c76.firebaseio.com",
+    "project_id": "glitter-bomb-b8c76",
+    "storage_bucket": "glitter-bomb-b8c76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226878115493:android:d6854bb3051cce98",
+        "android_client_info": {
+          "package_name": "com.valerasetrakov.hiddencamerarecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226878115493-8lvk4vq6fu0rn50rn4c3nb4ovob0com0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVOeB3eRyRQliwDf48h62Q-K4ZUxm6nuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226878115493-8lvk4vq6fu0rn50rn4c3nb4ovob0com0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" >
+
+    <data>
+        <variable name="viewmodel" type="com.valerasetrakov.data.Box"/>
+    </data>
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/box_id"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#A8A8A8"
+                android:gravity="center"
+                android:text="@{viewmodel.name}"
+                tools:text="100"/>
+
+    </LinearLayout>
+
+</layout>
