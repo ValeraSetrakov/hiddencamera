@@ -126,7 +126,7 @@ class Camera2Producer(context: Context) {
      */
     private fun setupRequestCaptureBuilder () {
         logd("Setup request capture builder")
-        captureRequestBuilder.addTarget(distance)
+        distance?.let { captureRequestBuilder.addTarget(it) }
     }
 
 
